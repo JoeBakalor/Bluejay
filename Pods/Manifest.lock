@@ -1,0 +1,16 @@
+PODS:
+  - JABLE (0.2.0)
+
+DEPENDENCIES:
+  - JABLE (from `/Users/jbak688/Library/Mobile Documents/com~apple~CloudDocs/iOS Development/CodeLibraries/Pods/JABLE`)
+
+EXTERNAL SOURCES:
+  JABLE:
+    :path: /Users/jbak688/Library/Mobile Documents/com~apple~CloudDocs/iOS Development/CodeLibraries/Pods/JABLE
+
+SPEC CHECKSUMS:
+  JABLE: bab2939ee6eff45c0ebc945a8b250a08e43c3810
+
+PODFILE CHECKSUM: 6ef6ab866d3c0f4e520ec1d110db93e23b41a64e
+
+COCOAPODS: 1.4.0

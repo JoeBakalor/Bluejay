@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051542D89E38754E5B6898ACFA413BC3 /* JABLE_GATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264700021CE01DA3AFE4F64551657652 /* JABLE_GATT.swift */; };
+		1CCBE16E4CCAB9E2D7729689BCD8B8B7 /* Pods-RAZR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC71A41BF1C40F6E2A9CD9CAAAF64A /* Pods-RAZR-dummy.m */; };
+		39C8BCE6615F60403B0F53299CEB4A55 /* JABLE_GattClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71B2DE4A7A059873CC4FADB8CAB4F6 /* JABLE_GattClient.swift */; };
+		6739E490DF0F487F93789C4F32F2FC85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		73B7F3281E7821CD68A78C61D4D377DB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78022D7564DE586E6728D23FF4CEDF9 /* ReplaceMe.swift */; };
+		9ADAC389045E883DE6E77D714E492EAA /* JABLE_CentralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBEE19F181858263AD9E265F0454AC /* JABLE_CentralController.swift */; };
+		9D164822182A59754E0BEB57ADA7BD47 /* JABLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E773E559C4ADBD03A8D31D1D71421 /* JABLE.swift */; };
+		A3CCE4BA3145152833B17ACA498A8974 /* Pods-RAZR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6674E3FD93A9FBA0672601AB191E8F2B /* Pods-RAZR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0F423A5E9464EDA8DBFE2963059FCA /* JABLE_GattExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F2139848DB5ED635F5964C66C69B0 /* JABLE_GattExample.swift */; };
+		C9890C125935A52F67EDF9FBC6A79968 /* JABLE_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AD341AF3EFA8148B943B9613A6FC1 /* JABLE_API.swift */; };
+		CF7D48F4BE4EBEE2268B1C4935FD5AD3 /* JABLE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4211CB5E00EA6D2D5BCAF4736AB05D2 /* JABLE-dummy.m */; };
+		E07C3FD30AF486DF7D11997E919842C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FDA4A9FDA24C7E3AF556DCE2DE893EEE /* JABLE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8D858B63A9D052679CC025DADE64FB /* JABLE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758FEBDE87FC25FC8AC5E1232E1DF5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962D77C9AE852E900FC02F770D1CEC48;
+			remoteInfo = JABLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0375BC6FF05311E56F93842A3675C072 /* JABLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JABLE.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CEBEE19F181858263AD9E265F0454AC /* JABLE_CentralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE_CentralController.swift; path = JABLE/Classes/JABLE_CentralController.swift; sourceTree = "<group>"; };
+		0D4AAB1D242CFF5B57F7AF3AB88AA218 /* Pods-RAZR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAZR-resources.sh"; sourceTree = "<group>"; };
+		1E5EDD8D07B1A0EE62951D9731299B81 /* Pods-RAZR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RAZR.modulemap"; sourceTree = "<group>"; };
+		2102781F6FAD1082540A38F00EB1C611 /* Pods-RAZR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAZR-frameworks.sh"; sourceTree = "<group>"; };
+		254415D460D7FE6C8C37677BD1AC5EC1 /* JABLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JABLE.framework; path = JABLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		264700021CE01DA3AFE4F64551657652 /* JABLE_GATT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE_GATT.swift; path = JABLE/Classes/JABLE_GATT.swift; sourceTree = "<group>"; };
+		29799403F86D6F8F054191FEC6A586BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3B3188D7CB42FD854CE9A1A8838E4292 /* Pods-RAZR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAZR.release.xcconfig"; sourceTree = "<group>"; };
+		51FE64B8494B010D885EB7CFFAE4E062 /* Pods-RAZR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAZR-acknowledgements.plist"; sourceTree = "<group>"; };
+		53E3DC428296E394A98A81707C46ADD3 /* Pods-RAZR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAZR.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6674E3FD93A9FBA0672601AB191E8F2B /* Pods-RAZR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RAZR-umbrella.h"; sourceTree = "<group>"; };
+		75BC71A41BF1C40F6E2A9CD9CAAAF64A /* Pods-RAZR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAZR-dummy.m"; sourceTree = "<group>"; };
+		7B8D858B63A9D052679CC025DADE64FB /* JABLE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JABLE-umbrella.h"; sourceTree = "<group>"; };
+		898F2139848DB5ED635F5964C66C69B0 /* JABLE_GattExample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE_GattExample.swift; path = JABLE/Classes/JABLE_GattExample.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9809262BE3F8C6243997A1B34D6D2E2F /* Pods-RAZR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RAZR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4DD9369BD2BC37741C025E4161B84BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78022D7564DE586E6728D23FF4CEDF9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JABLE/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BB8E773E559C4ADBD03A8D31D1D71421 /* JABLE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE.swift; path = JABLE/Classes/JABLE.swift; sourceTree = "<group>"; };
+		BD4660E52B85D5D4492619D224E2048A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02A65E5BE0BBB41251B13DB62360CC0 /* JABLE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JABLE.modulemap; sourceTree = "<group>"; };
+		C32AD341AF3EFA8148B943B9613A6FC1 /* JABLE_API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE_API.swift; path = JABLE/Classes/JABLE_API.swift; sourceTree = "<group>"; };
+		C3D8E8B95011E6C059B9F609E9F78F65 /* JABLE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JABLE.xcconfig; sourceTree = "<group>"; };
+		CBDC3C580AC8925365520A5064A718DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CCDCE1C1C0A4929116EFC6919FBCCFC2 /* Pods_RAZR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RAZR.framework; path = "Pods-RAZR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE71B2DE4A7A059873CC4FADB8CAB4F6 /* JABLE_GattClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JABLE_GattClient.swift; path = JABLE/Classes/JABLE_GattClient.swift; sourceTree = "<group>"; };
+		EA45BA766D5CE138067040C25D2CE569 /* JABLE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JABLE-prefix.pch"; sourceTree = "<group>"; };
+		F4211CB5E00EA6D2D5BCAF4736AB05D2 /* JABLE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JABLE-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81DAADFA88839FF83180862741C2B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6739E490DF0F487F93789C4F32F2FC85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC13E154E55B610175F2E9023F2A0396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07C3FD30AF486DF7D11997E919842C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0568D821EAA2D1A8E65221167D1E4D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254415D460D7FE6C8C37677BD1AC5EC1 /* JABLE.framework */,
+				CCDCE1C1C0A4929116EFC6919FBCCFC2 /* Pods_RAZR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E146646FB45D162767B5D13A842FE80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4037F57A6093E16C37F70F4B1F9C0 /* JABLE */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		34E0968848A507E5F9415F2812F1F718 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4660E52B85D5D4492619D224E2048A /* Info.plist */,
+				C02A65E5BE0BBB41251B13DB62360CC0 /* JABLE.modulemap */,
+				C3D8E8B95011E6C059B9F609E9F78F65 /* JABLE.xcconfig */,
+				F4211CB5E00EA6D2D5BCAF4736AB05D2 /* JABLE-dummy.m */,
+				EA45BA766D5CE138067040C25D2CE569 /* JABLE-prefix.pch */,
+				7B8D858B63A9D052679CC025DADE64FB /* JABLE-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../Customer Apps/Winegard/RAZR/Pods/Target Support Files/JABLE";
+			sourceTree = "<group>";
+		};
+		4ED4037F57A6093E16C37F70F4B1F9C0 /* JABLE */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E773E559C4ADBD03A8D31D1D71421 /* JABLE.swift */,
+				C32AD341AF3EFA8148B943B9613A6FC1 /* JABLE_API.swift */,
+				0CEBEE19F181858263AD9E265F0454AC /* JABLE_CentralController.swift */,
+				264700021CE01DA3AFE4F64551657652 /* JABLE_GATT.swift */,
+				DE71B2DE4A7A059873CC4FADB8CAB4F6 /* JABLE_GattClient.swift */,
+				898F2139848DB5ED635F5964C66C69B0 /* JABLE_GattExample.swift */,
+				B78022D7564DE586E6728D23FF4CEDF9 /* ReplaceMe.swift */,
+				E3F3786E14DF827F626B2C64A4BBD97A /* Pod */,
+				34E0968848A507E5F9415F2812F1F718 /* Support Files */,
+			);
+			name = JABLE;
+			path = "/Users/jbak688/Library/Mobile Documents/com~apple~CloudDocs/iOS Development/CodeLibraries/Pods/JABLE";
+			sourceTree = "<absolute>";
+		};
+		52B73584B3C12E4ACF44E9160460A43D /* Pods-RAZR */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD9369BD2BC37741C025E4161B84BC /* Info.plist */,
+				1E5EDD8D07B1A0EE62951D9731299B81 /* Pods-RAZR.modulemap */,
+				9809262BE3F8C6243997A1B34D6D2E2F /* Pods-RAZR-acknowledgements.markdown */,
+				51FE64B8494B010D885EB7CFFAE4E062 /* Pods-RAZR-acknowledgements.plist */,
+				75BC71A41BF1C40F6E2A9CD9CAAAF64A /* Pods-RAZR-dummy.m */,
+				2102781F6FAD1082540A38F00EB1C611 /* Pods-RAZR-frameworks.sh */,
+				0D4AAB1D242CFF5B57F7AF3AB88AA218 /* Pods-RAZR-resources.sh */,
+				6674E3FD93A9FBA0672601AB191E8F2B /* Pods-RAZR-umbrella.h */,
+				53E3DC428296E394A98A81707C46ADD3 /* Pods-RAZR.debug.xcconfig */,
+				3B3188D7CB42FD854CE9A1A8838E4292 /* Pods-RAZR.release.xcconfig */,
+			);
+			name = "Pods-RAZR";
+			path = "Target Support Files/Pods-RAZR";
+			sourceTree = "<group>";
+		};
+		610FD96C716E0B083CE648C8F3781BAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B73584B3C12E4ACF44E9160460A43D /* Pods-RAZR */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2E146646FB45D162767B5D13A842FE80 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0568D821EAA2D1A8E65221167D1E4D20 /* Products */,
+				610FD96C716E0B083CE648C8F3781BAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3F3786E14DF827F626B2C64A4BBD97A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0375BC6FF05311E56F93842A3675C072 /* JABLE.podspec */,
+				29799403F86D6F8F054191FEC6A586BB /* LICENSE */,
+				CBDC3C580AC8925365520A5064A718DC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		356415137FC2648C85D1AC3CBC7F1184 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA4A9FDA24C7E3AF556DCE2DE893EEE /* JABLE-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43A4E9E03DAC6F1D187C2AB6595A814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CCE4BA3145152833B17ACA498A8974 /* Pods-RAZR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55C536AE04B6DF062CE02ED1F4D3F412 /* Pods-RAZR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1641D61F94A7080FA6E249E5CCA57CA2 /* Build configuration list for PBXNativeTarget "Pods-RAZR" */;
+			buildPhases = (
+				635FFC3948BFD3DA535DC83DE02FA003 /* Sources */,
+				81DAADFA88839FF83180862741C2B567 /* Frameworks */,
+				B43A4E9E03DAC6F1D187C2AB6595A814 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F2DCD8674165C71DBD0C32C5D9167DF /* PBXTargetDependency */,
+			);
+			name = "Pods-RAZR";
+			productName = "Pods-RAZR";
+			productReference = CCDCE1C1C0A4929116EFC6919FBCCFC2 /* Pods_RAZR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		962D77C9AE852E900FC02F770D1CEC48 /* JABLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938B5E08879A33DE00A844C8D25F3912 /* Build configuration list for PBXNativeTarget "JABLE" */;
+			buildPhases = (
+				3EFFDEF45DFBE1AC9D66C5E2627A44F7 /* Sources */,
+				DC13E154E55B610175F2E9023F2A0396 /* Frameworks */,
+				356415137FC2648C85D1AC3CBC7F1184 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JABLE;
+			productName = JABLE;
+			productReference = 254415D460D7FE6C8C37677BD1AC5EC1 /* JABLE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0568D821EAA2D1A8E65221167D1E4D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962D77C9AE852E900FC02F770D1CEC48 /* JABLE */,
+				55C536AE04B6DF062CE02ED1F4D3F412 /* Pods-RAZR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EFFDEF45DFBE1AC9D66C5E2627A44F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D48F4BE4EBEE2268B1C4935FD5AD3 /* JABLE-dummy.m in Sources */,
+				9D164822182A59754E0BEB57ADA7BD47 /* JABLE.swift in Sources */,
+				C9890C125935A52F67EDF9FBC6A79968 /* JABLE_API.swift in Sources */,
+				9ADAC389045E883DE6E77D714E492EAA /* JABLE_CentralController.swift in Sources */,
+				051542D89E38754E5B6898ACFA413BC3 /* JABLE_GATT.swift in Sources */,
+				39C8BCE6615F60403B0F53299CEB4A55 /* JABLE_GattClient.swift in Sources */,
+				BA0F423A5E9464EDA8DBFE2963059FCA /* JABLE_GattExample.swift in Sources */,
+				73B7F3281E7821CD68A78C61D4D377DB /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635FFC3948BFD3DA535DC83DE02FA003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCBE16E4CCAB9E2D7729689BCD8B8B7 /* Pods-RAZR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F2DCD8674165C71DBD0C32C5D9167DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JABLE;
+			target = 962D77C9AE852E900FC02F770D1CEC48 /* JABLE */;
+			targetProxy = 758FEBDE87FC25FC8AC5E1232E1DF5B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		30050AAB94E0C060B3F0FA146C59AE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D8E8B95011E6C059B9F609E9F78F65 /* JABLE.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JABLE/JABLE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JABLE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JABLE/JABLE.modulemap";
+				PRODUCT_NAME = JABLE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38922755BA42C909CA0F3EC193049B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E3DC428296E394A98A81707C46ADD3 /* Pods-RAZR.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAZR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAZR/Pods-RAZR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAZR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B6517EE373ECF8A51F33FB56E1B596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D8E8B95011E6C059B9F609E9F78F65 /* JABLE.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JABLE/JABLE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JABLE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JABLE/JABLE.modulemap";
+				PRODUCT_NAME = JABLE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9498A3C62C0ADA938C0C2E59FEB3B45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3188D7CB42FD854CE9A1A8838E4292 /* Pods-RAZR.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAZR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAZR/Pods-RAZR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAZR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1641D61F94A7080FA6E249E5CCA57CA2 /* Build configuration list for PBXNativeTarget "Pods-RAZR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38922755BA42C909CA0F3EC193049B45 /* Debug */,
+				9498A3C62C0ADA938C0C2E59FEB3B45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938B5E08879A33DE00A844C8D25F3912 /* Build configuration list for PBXNativeTarget "JABLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30050AAB94E0C060B3F0FA146C59AE84 /* Debug */,
+				3B6517EE373ECF8A51F33FB56E1B596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

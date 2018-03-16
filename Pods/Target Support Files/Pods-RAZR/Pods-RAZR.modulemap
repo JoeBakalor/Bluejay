@@ -1,0 +1,6 @@
+framework module Pods_RAZR {
+  umbrella header "Pods-RAZR-umbrella.h"
+
+  export *
+  module * { export * }
+}
