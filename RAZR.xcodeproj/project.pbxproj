@@ -425,10 +425,6 @@
 			isa = PBXGroup;
 			children = (
 				385167C91F0F194D00D0469F /* ScanManager.swift */,
-				3802EF461F488E1500DE2288 /* LocationManager.swift */,
-				3821FED91F68C58C00EDDEFC /* SMFileManager.swift */,
-				38DD23801F2A5AD3000491E3 /* WinegardServerDataManager.swift */,
-				E0FFD74D20588A410077524E /* Listen.swift */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
@@ -466,6 +462,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E00A9052205FFE510027144A /* ServerComms */ = {
+			isa = PBXGroup;
+			children = (
+				38DD23801F2A5AD3000491E3 /* WinegardServerDataManager.swift */,
+			);
+			name = ServerComms;
+			sourceTree = "<group>";
+		};
+		E00A9053205FFE7B0027144A /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				3802EF461F488E1500DE2288 /* LocationManager.swift */,
+			);
+			name = LocationServices;
+			sourceTree = "<group>";
+		};
 		E05E58AE205AC9510022FEF9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +506,8 @@
 		E08527AA2058710900C3A9E7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E00A9053205FFE7B0027144A /* LocationServices */,
+				E00A9052205FFE510027144A /* ServerComms */,
 				E05E58B2205B66230022FEF9 /* BLE */,
 			);
 			name = Networking;
@@ -736,7 +750,9 @@
 		E0FFD761205AC8B40077524E /* Utility Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E0FFD74D20588A410077524E /* Listen.swift */,
 				E05E58B0205B613C0022FEF9 /* UtilityExtensions.swift */,
+				3821FED91F68C58C00EDDEFC /* SMFileManager.swift */,
 			);
 			name = "Utility Classes";
 			sourceTree = "<group>";

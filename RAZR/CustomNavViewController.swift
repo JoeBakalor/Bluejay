@@ -26,7 +26,4 @@ class CustomNavViewController: UINavigationController {
     {
         return(visibleViewController?.supportedInterfaceOrientations)!
     }
-
-
-
 }

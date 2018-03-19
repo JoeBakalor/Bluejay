@@ -21,15 +21,8 @@ var winegardServices: [CBService] = []
 //============================== Base Class =======================================
 class WidgetsViewController: UIViewController
 {
-    /******************************************************************************/
-    //  NOTIFICATION HANDLER METHODS
-    /******************************************************************************/
-    //let FOUND_SERVICES_HANDLER = #selector(WidgetsViewController.foundWinegardService(_:))
-    //let CONNECTION_FAILED_HANDLER = #selector(WidgetsViewController.winegardDeviceDisconnected(_:))
-    //let FOUND_CHARACTERISTICS_HANDLER = #selector(WidgetsViewController.foundCharacteristics(_:))
-    /******************************************************************************/
-    //  UI CONNECTIONS
-    /******************************************************************************/
+
+    //  UI Outlets
     @IBOutlet weak var statusView: UIView!
     @IBOutlet weak var statusViewLabel: UILabel!
     @IBOutlet weak var statusViewActivityIndicator: UIActivityIndicatorView!
@@ -142,6 +135,7 @@ extension WidgetsViewController
 {
     func setupBindings(){
         
+        //  Bind to isConnected variable so we know when connection state changes
         viewModel.isConnected.bind(listener:
         { (connected) in
             if !connected{//  Rayzar disconnected
@@ -157,11 +151,9 @@ extension WidgetsViewController: UICollectionViewDelegate,
                                  UICollectionViewDelegateFlowLayout{
     
     
-    /******************************************************************************/
-    //  Initialize collection view and add to view controllers current view
-    /******************************************************************************/
-    func setupCollectionView()
-    {
+    //  Initialize collection(widgets) view and add to view controllers current view
+    func setupCollectionView(){
+        
         let layout = UICollectionViewFlowLayout()
         layout.minimumLineSpacing = 8
         layout.minimumInteritemSpacing = 8
@@ -180,26 +172,19 @@ extension WidgetsViewController: UICollectionViewDelegate,
         view.addSubview(collectionView)
     }
     
-    /******************************************************************************/
-    //  Get number of sections in collection view
-    /******************************************************************************/
-    func numberOfSections(in collectionView: UICollectionView) -> Int
-    {
+    //  Get number of sections in collection view, only have one group of widgets
+    func numberOfSections(in collectionView: UICollectionView) -> Int{
         return 1
     }
 
-    /******************************************************************************/
     //  Get number of items in section
-    /******************************************************************************/
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return widgetImages.count
     }
 
-    /******************************************************************************/
     //  Add each item in the collection view
-    /******************************************************************************/
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
-    {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "widgetCell", for: indexPath) as! WidgetCollectionViewCell
         cell.layer.cornerRadius = 7
         cell.contentView.layer.cornerRadius = 2
@@ -267,9 +252,7 @@ extension WidgetsViewController: UICollectionViewDelegate,
         //========================================================
         case 2: //print("Three")
         
-            //mapview only dependant on location data being available, need to add check for 
-            //this before moving to view
-            //removeObservers()
+            //  Add check to make sure location data available before moving to screen
         
             let transistion = CATransition()
             transistion.subtype = kCATransitionFade
@@ -294,8 +277,6 @@ extension WidgetsViewController: UICollectionViewDelegate,
             
             guard rayzarGatt.winegardOtaService != nil else { return }
 
-            //logDataManager.loggingEnable(enable: false)
-            //removeObservers()
             let transistion = CATransition()
             transistion.subtype = kCATransitionFade
             view.window!.layer.add(transistion, forKey: kCATransition)
@@ -305,7 +286,6 @@ extension WidgetsViewController: UICollectionViewDelegate,
         //========================================================
         case 5: //print("Six")
         
-            //removeObservers()
             guard rayzarGatt.winegardInformationService != nil else { return }
         
             let transistion = CATransition()
@@ -317,8 +297,6 @@ extension WidgetsViewController: UICollectionViewDelegate,
         //========================================================
         case 6: //print("Log Files View Controller")
         
-            //removeObservers()
-        
             let transistion = CATransition()
             transistion.subtype = kCATransitionFade
             view.window!.layer.add(transistion, forKey: kCATransition)
@@ -326,6 +304,10 @@ extension WidgetsViewController: UICollectionViewDelegate,
             self.navigationController?.show(newView!, sender: self)
         //========================================================
         case 7: print("Winegard Company Widget")
+            
+        if let url = URL(string: "http://www.winegard.com") {
+            UIApplication.shared.open(url, options: [:])
+            }
             
         default: print("No Match")
         }
