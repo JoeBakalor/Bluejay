@@ -88,6 +88,7 @@
 		38F628B51F4907A5001C16C1 /* dataLogsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F628B41F4907A5001C16C1 /* dataLogsIcon.png */; };
 		38F628B71F490BE0001C16C1 /* LogDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F628B61F490BE0001C16C1 /* LogDataStructures.swift */; };
 		C1A0CDCAEFE4A54E7ACD42B4 /* Pods_RAZR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147361915BC96F662F48B924 /* Pods_RAZR.framework */; };
+		E00A90552060306A0027144A /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A90542060306A0027144A /* NotificationHelper.swift */; };
 		E05E58B1205B613C0022FEF9 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E58B0205B613C0022FEF9 /* UtilityExtensions.swift */; };
 		E08527A92058700E00C3A9E7 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08527A82058700E00C3A9E7 /* BLEManager.swift */; };
 		E08527AC2058745500C3A9E7 /* DeviceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08527AB2058745500C3A9E7 /* DeviceSelectorViewModel.swift */; };
@@ -211,6 +212,7 @@
 		38F628B21F48F9CE001C16C1 /* LogFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFilesViewController.swift; sourceTree = "<group>"; };
 		38F628B41F4907A5001C16C1 /* dataLogsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dataLogsIcon.png; path = Graphics/dataLogsIcon.png; sourceTree = "<group>"; };
 		38F628B61F490BE0001C16C1 /* LogDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDataStructures.swift; sourceTree = "<group>"; };
+		E00A90542060306A0027144A /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
 		E05E58B0205B613C0022FEF9 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
 		E08527A82058700E00C3A9E7 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		E08527AB2058745500C3A9E7 /* DeviceSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectorViewModel.swift; sourceTree = "<group>"; };
@@ -350,12 +352,10 @@
 		385B5D5F1ED751D9003CB025 /* RAZR */ = {
 			isa = PBXGroup;
 			children = (
-				E0FFD761205AC8B40077524E /* Utility Classes */,
 				385B5D641ED751D9003CB025 /* Main.storyboard */,
 				38489C2F1EF02C1500491427 /* CustomNavViewController.swift */,
 				380C9F911EE60CC700EFC482 /* WinegardConstants.swift */,
-				385B5D901ED75213003CB025 /* Functional Groups */,
-				E08527AA2058710900C3A9E7 /* Networking */,
+				385B5D901ED75213003CB025 /* MVVM */,
 				38D036CE1F34BDEF001798C0 /* CustomUIClasses */,
 				38B054E51FE8FD1A00C60BB4 /* Data Models */,
 				382620C51F55A651002077C9 /* CoreData */,
@@ -383,7 +383,7 @@
 			path = RAZRUITests;
 			sourceTree = "<group>";
 		};
-		385B5D901ED75213003CB025 /* Functional Groups */ = {
+		385B5D901ED75213003CB025 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
 				E08527AD2058746300C3A9E7 /* DeviceSelectorView */,
@@ -396,7 +396,7 @@
 				E08527C52058773C00C3A9E7 /* LogFilesView */,
 				E08527BF2058757800C3A9E7 /* SettingsView */,
 			);
-			name = "Functional Groups";
+			name = MVVM;
 			sourceTree = "<group>";
 		};
 		385B5D911ED75227003CB025 /* Supporting */ = {
@@ -424,6 +424,10 @@
 		38B054E51FE8FD1A00C60BB4 /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0FFD761205AC8B40077524E /* Utility Classes */,
+				E00A9053205FFE7B0027144A /* LocationServices */,
+				E05E58B2205B66230022FEF9 /* BLE */,
+				E00A9052205FFE510027144A /* ServerComms */,
 				385167C91F0F194D00D0469F /* ScanManager.swift */,
 			);
 			name = "Data Models";
@@ -501,16 +505,6 @@
 				E0EC821D203DC39600F7AA72 /* RayzarGATT.swift */,
 			);
 			name = BLE;
-			sourceTree = "<group>";
-		};
-		E08527AA2058710900C3A9E7 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				E00A9053205FFE7B0027144A /* LocationServices */,
-				E00A9052205FFE510027144A /* ServerComms */,
-				E05E58B2205B66230022FEF9 /* BLE */,
-			);
-			name = Networking;
 			sourceTree = "<group>";
 		};
 		E08527AD2058746300C3A9E7 /* DeviceSelectorView */ = {
@@ -696,9 +690,9 @@
 		E0FFD75B205AC84F0077524E /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				38ECB4B11F68238B007BE0E0 /* FirmwareUpdateManager.swift */,
 				38D036CF1F3A1D7C001798C0 /* BootloaderStateMachine.swift */,
 				380C9F6F1EE5A3AC00EFC482 /* OTAFileManager.swift */,
+				38ECB4B11F68238B007BE0E0 /* FirmwareUpdateManager.swift */,
 			);
 			name = DataModels;
 			sourceTree = "<group>";
@@ -753,6 +747,7 @@
 				E0FFD74D20588A410077524E /* Listen.swift */,
 				E05E58B0205B613C0022FEF9 /* UtilityExtensions.swift */,
 				3821FED91F68C58C00EDDEFC /* SMFileManager.swift */,
+				E00A90542060306A0027144A /* NotificationHelper.swift */,
 			);
 			name = "Utility Classes";
 			sourceTree = "<group>";
@@ -1042,6 +1037,7 @@
 				384AF9221EFEB80E006D6017 /* SpectralScannerModel.swift in Sources */,
 				38489C341EF0459E00491427 /* ChannelListViewController.swift in Sources */,
 				389FEF7C1F439F3000E658DA /* LogDataManager.swift in Sources */,
+				E00A90552060306A0027144A /* NotificationHelper.swift in Sources */,
 				385167DA1F1E58FC00D0469F /* MapViewController.swift in Sources */,
 				E08527BE2058756C00C3A9E7 /* MapViewModel.swift in Sources */,
 			);
