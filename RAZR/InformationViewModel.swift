@@ -46,6 +46,7 @@ extension InformationViewModel
         }
         
         if let softwareRevisionCharacteristic = rayzarGatt.winegardSoftwareRevisionCharacteristic{
+            print("Read Software Revision")
             bleManager.read(valueFor: softwareRevisionCharacteristic)
         }
         

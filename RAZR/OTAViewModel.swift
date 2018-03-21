@@ -10,7 +10,7 @@ import Foundation
 import CoreBluetooth
 import JABLE
 
-let startingInBlootloaderMode = true
+let startingInBlootloaderMode = false
 
 class OTAViewModel: NSObject
 {

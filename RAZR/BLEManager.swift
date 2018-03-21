@@ -129,6 +129,8 @@ class BLEManager: JABLE
         
         //  Initialize JABLE with our gatt profile and set autodiscovery to true
         print("BLEManager: JABLE INTIALIZED")
+        
+        //super.init(jableDelegate: self, gattProfile: &rayzarGatt.jableGattProfile, autoGattDiscovery: true)
         super.init(jableDelegate: self, gattProfile: &rayzarGatt.jableGattProfile, autoGattDiscovery: true)
     }
     
